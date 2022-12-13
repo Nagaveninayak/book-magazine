@@ -1,0 +1,29 @@
+{
+  "name": "csv_upload_be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "pm2 start ./src/index.ts",
+    "dev": "nodemon ./src/index.ts"
+  },
+  "author": "nav",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.0.29",
+    "csv-parser": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "3.3.0",
+    "typescript": "^3.9.10"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.0.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.2",
+    "helmet": "^5.0.1",
+    "http-status": "^1.5.0",
+    "mongoose": "^6.1.6"
+  }
+}
