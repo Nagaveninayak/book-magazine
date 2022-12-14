@@ -1,16 +1,11 @@
 {
     "compilerOptions": {
-       "lib": [
-          "es6",
-          "dom",
-          "esnext.asynciterable"
-       ],
-       "target": "es6",
-       "module": "commonjs",
-       "moduleResolution": "node",
-       "outDir": "./build",
-       "emitDecoratorMetadata": true,
-       "experimentalDecorators": true,
-       "sourceMap": true
-    }
- }
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "target": "es6",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "dist"
+    },
+    "lib": ["es2015"]
+}
